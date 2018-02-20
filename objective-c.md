@@ -44,9 +44,11 @@ private property in the `.m` file:
 @interface ZZZ
 @end
 
-@implementation ZZZ
+@implementation ZZZ {
 
 HLTileController* _yyy;
+
+}
 
 @end
 ```
